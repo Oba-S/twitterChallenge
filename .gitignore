@@ -1,0 +1,59 @@
+# ビルド関連のフォルダやファイルを無視する
+target/
+build/
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+
+# アプリケーションの依存関係を無視する
+# Mavenの場合
+.proprieties
+.mvn/
+mvnw
+mvnw.cmd
+mvn-wrapper.jar
+
+# Gradleの場合
+.gradle/
+build/
+out/
+
+# アプリケーションの設定ファイルを無視する
+application.properties
+application.yml
+
+# IDE関連の設定を無視する
+# Eclipse
+.classpath
+.project
+.settings/
+.factorypath
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# VSCode
+.vscode/
+
+# OS関連のファイルを無視する
+.DS_Store
+Thumbs.db
+
+# ログファイルや一時ファイルを無視する
+logs/
+*.log
+*.log.*
+*.tmp
+*.temp
+
+# 認証情報や秘密情報を含むファイルを無視する（セキュリティ対策）
+application-*.properties
+application-*.yml
+
+# キャッシュファイルを無視する
+*.cache
